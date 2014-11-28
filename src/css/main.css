@@ -15,9 +15,7 @@ html {
 }
 
 /*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
+ * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
@@ -46,14 +44,12 @@ hr {
 }
 
 /*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
  */
 
 audio,
 canvas,
-iframe,
 img,
 svg,
 video {
@@ -79,10 +75,10 @@ textarea {
 }
 
 /* ==========================================================================
-   Browser Upgrade Prompt
+   Browse Happy prompt
    ========================================================================== */
 
-.browserupgrade {
+.browsehappy {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
@@ -92,10 +88,193 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#wrapper {
+	width:1400px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:18px;
+	line-height:26px;
+	font-family:Open Sans;
+
+}
+h1 {
+	font-size:220%;
+}
+h2 {
+	font-size:200%;
+}
+h3 {
+	font-size:180%;
+}
+h4 {
+	font-size:160%;
+}
+h5 {
+	font-size:140%;
+	}
+h6 {
+	font-size:120%;
+	}
+#branding{
+	background-color:white;
+	height:86px;
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#menu{
+	width:1400px;
+	height:56px;
+	line-height:56px;
+	background-color:#3f8252;
+	text-align:center;
 
 
+}
 
+#content{
+	
+	background-color:white;
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+#head { 
+	text-align:center;
+	}
+#head p {
+	color:#b1b1b1;
+	margin:0px;
+	}
+#head h2 {
+	color:#5d5d5d;
+	margin-top:23px;
+	margin-bottom:0px;
+	}
+#head p.para{
+	font-weight:bold;
+	color: green;
+	margin-top:21px;
+	margin-bottom:0px;
+	letter-spacing:3px;
+	}
+#video {
+	text-align:center;
+	}
 
+.fb-like {	
+	text-align:center;
+	margin-top:23px;
+	border-radius:5px;
+	width:960px;
+	height:56px;
+	background-color:#3b5998;
+	margin-bottom:20px;
+	}
+#info {
+	width:560px;
+	float:left;
+	font-size:14px;
+	margin:0px;
+	}
+#info h6 {
+	margin:0px;
+	}
+#info p {
+	line-height:23px;
+	margin:0px;
+	}
+#inforight {
+	margin:0px;
+	width;400px;
+	font-size:14px;
+	float:right;
+	}
+#table th {
+	background-color:#7f8c8d;
+	font-size:22px;
+	color:white;
+	height:56px;
+	}
+#table tr {
+	height:33px;
+	background-color:#eef1f5;
+	line-height:33px;
+	color:#777777;
+	}
+
+#heating {
+	
+	height:593px;
+	font-size:14px;
+	text-align:center;
+	background-color:#eef1f5;
+	padding-left:220px;
+	padding-right:220px;
+	}
+#heating h2 {
+	color:#c0392b;
+	margin-top:20px;
+	}
+#pics {
+	display:inline;
+	width:86px;
+	padding:23px;
+	}
+#cooling {
+	
+	height:593px;
+	font-size:14px;
+	text-align:center;
+	background-color:white;
+	padding-left:220px;
+	padding-right:220px;
+
+	}
+#cooling h2 {
+	color:#428abe;
+	
+	}
+#footer{
+	background-color:white;
+	clear:both;
+	}
+#logo {
+	width:137px;
+	height:86px;
+	}
+#brand{
+	float:right;
+	display:inline;
+	line-height:86px;
+	}
+#Aplus {
+	width:56px;
+	height:56px;
+	margin:0px;
+	}
+#fblog {
+	width:33px;
+	height:56px;
+	margin:0px;
+	}
+#menu ul {
+	margin:0px;
+	}
+#menu li  {
+	display:inline;
+	padding:20px;
+
+	}
+#menu a {
+	text-decoration:none;
+	color:white;
+}
+#menu a:hover {
+	color:black;
+	}
 
 
 
@@ -114,8 +293,7 @@ textarea {
    ========================================================================== */
 
 /*
- * Hide visually and from screen readers:
- * http://juicystudio.com/article/screen-readers-display-none.php
+ * Hide visually and from screen readers: h5bp.com/u
  */
 
 .hidden {
@@ -124,8 +302,7 @@ textarea {
 }
 
 /*
- * Hide only visually, but have it available for screen readers:
- * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ * Hide only visually, but have it available for screen readers: h5bp.com/v
  */
 
 .visuallyhidden {
@@ -140,9 +317,8 @@ textarea {
 }
 
 /*
- * Extends the .visuallyhidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
  */
 
 .visuallyhidden.focusable:active,
@@ -204,8 +380,7 @@ textarea {
 
 /* ==========================================================================
    Print styles.
-   Inlined to avoid the additional HTTP request:
-   http://www.phpied.com/delay-loading-your-print-css/
+   Inlined to avoid the additional HTTP request: h5bp.com/r
    ========================================================================== */
 
 @media print {
@@ -213,8 +388,7 @@ textarea {
     *:before,
     *:after {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -248,13 +422,8 @@ textarea {
         page-break-inside: avoid;
     }
 
-    /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-
     thead {
-        display: table-header-group;
+        display: table-header-group; /* h5bp.com/t */
     }
 
     tr,
